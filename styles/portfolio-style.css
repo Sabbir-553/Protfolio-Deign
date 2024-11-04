@@ -1,0 +1,100 @@
+/* font link here   */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* header section css start here */
+
+ .primary-color{
+    color: #fd6e0a;
+}
+
+.btn-primary{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border: 0;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 35px;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.header nav h3{
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header header nav ul{
+    display: flex;
+    align-items: center;
+}
+.header header nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+.header header nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.banner .profile-picture img{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    margin-bottom: 30px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+ /* header section css end here */
